@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  
+}
+.inputs {
+  padding: 5px;
+}
+
+.error {
+  color: red
+}
