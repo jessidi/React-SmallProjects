@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  margin: 20px auto; 
+  position: relative;
+  width: 320px;
+  height: 568px;
+  border: solid 1px gray;
+  background-color: #FFCCCC;
+}
+
+.Show {
+  margin-top: 60%;
+  font-size: 400%;
+  color: #FFFF99;
+}
+
+.Buttons {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+button {
+  width: 50%;
+  height: 80px;
+  bottom: 0;
+  float: left;
+  background-color: #CCCCFF;
+}
+
+.Symbol {
+  font-size: 300%;
+  color: white;
+  text-align: center
+}
