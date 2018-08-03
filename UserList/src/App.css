@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  flex-direction: row
+}
+
+.left {
+  flex:1;
+  width: 30%;
+  margin-top: 40px;
+  margin-left: 20%;
+  overflow: 'auto';
+  height: 500px;
+}
+
+.right {
+  position: fixed;
+  width: 30%;
+  margin-top: 40px;
+  margin-left: 20%;
+  height: 400px;
+}
+
+.detail {
+  padding-top: 10px;
+  padding-left: 20px; 
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  border: 1px solid black;
+  bottom: 0;
+}
