@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  flex-direction: row
+}
+
+.userlist {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.userdetail {
+  position: relative;
+  width: 30%;
+  margin: 40px auto;
+  height: 400px;
+}
+
+.detail {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px; 
+  position: absolute;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.home {
+  text-align: center;
+}
+
+.goback {
+  margin: 10px auto;
+  height: 30px;
+}
+
+.header {
+  margin: 40px auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.homeLink {
+  margin-right: 30px;
+}
