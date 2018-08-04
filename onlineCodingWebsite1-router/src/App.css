@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-left: 8%;
+}
+
+.problems {
+  margin: 20px 30px;
+  margin-right: 80px;
+  
+}
+
+.problemList {
+  border-collapse: collapse;
+}
+
+li {
+  list-style-type: none;
+  height: 50px;
+  border: 1px solid silver;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+.showDetail {
+  margin-top: 3%;
+  text-align: center;
+}
+.problemDetail {
+  margin-bottom: 40px;
+}
+
+.nodata {
+  text-align: center;
+  color: silver;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
